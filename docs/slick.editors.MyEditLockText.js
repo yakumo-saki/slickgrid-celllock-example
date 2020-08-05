@@ -25,9 +25,11 @@
 
       console.log(args.item);
       if (args.item.effortDriven == true) {
+        // 編集できるので、編集用テキストボックスを表示させる。
         console.log("edit ok effortDriven = " + args.item.effortDriven);
         $input.appendTo(args.container).focus().select();
       } else {
+        // 編集NGなので、編集用テキストボックスを表示させずに抜ける。
         console.log("edit denied effortDriven = " + args.item.effortDriven);
         $(args.container).removeClass("editable"); // セルの色が変わるので戻す
         args.cancelChanges(); // 編集キャンセル

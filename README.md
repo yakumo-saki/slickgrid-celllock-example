@@ -7,8 +7,8 @@ examples/example-lock-edit.html をブラウザで開く
 
 ### 見どころ
 
-* examples/example-lock-edit.html
-* slick.editors.MyEditLockText.js
+* docs/index.html …使用例
+* slick.editors.MyEditLockText.js …実装例。参考になる部分だけ拾ってください。
 
 ### original
 
