@@ -2,8 +2,7 @@
 
 ### 試し方
 
-このリポジトリをgit clone or Download ZIP して展開する。
-examples/example-lock-edit.html をブラウザで開く
+https://yakumo-saki.github.io/slickgrid-celllock-example/
 
 ### 見どころ
 
